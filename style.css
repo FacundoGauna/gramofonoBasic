@@ -19,7 +19,7 @@ body {
 
 button {
     position: absolute;
-    top: 180px;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     padding: 10px 20px;
@@ -30,6 +30,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     animation: blinkColor 1s infinite alternate; /* 🔹 Aplica la animación */
+    z-index: 100;
 }
 
 button:hover {
